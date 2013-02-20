@@ -1,0 +1,17 @@
+Ext.define "StoreSample.model.Child",
+  extend: "Ext.data.Model"
+  requires: ["StoreSample.model.Parent"]
+  config:
+    fields: [
+      name: "name"
+      type: "string"
+    ,
+      name: "age"
+      type: "int"
+    ]
+
+    #belongsTo: [
+    #  model: "StoreSample.model.Parent"
+    #]
+
+
