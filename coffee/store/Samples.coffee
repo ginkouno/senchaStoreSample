@@ -5,7 +5,9 @@ Ext.define "StoreSample.store.Samples",
     proxy:
       type: "ajax"
       url: "data/sample.json"
+      #url: "api"
       reader:
         type: "json"
         rootProperty: "root"
+        #rootProperty: "families"
     autoLoad: true
